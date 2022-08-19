@@ -10,4 +10,21 @@
     background-image: url(img/test.png);
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    background: #ff574a;
+    text-align: center;
+    padding: 40px 90px;
+    color: #fff;
+    position: relative;
+    border-radius: 20px;
+}
+.cat-pic{
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 6px;
 }
