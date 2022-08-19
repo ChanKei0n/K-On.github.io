@@ -10,8 +10,34 @@
     <img src="img/catgun.gif" class="cat-pic">
     <h3>Chan Kei On</h3>
     <p>A man with too much free time</p>
+    <div class="profile-bio" >
+      <p>Welcome to my profile, name is Kei On
+        and my hobbies are watching anime, gaming, collecting MREs and Alcohol.</p>
+    </div>
   </div>
-
+  <div class="bongo-cat">
+    <img src="img/bongo-cat.gif" class="bongo-cat-pic">
+  </div>
+  <div class="cowboy">
+    <img src="img/screaming-cowboy.png" id="loud-cowboy" class="cowboy-pic">
+    <audio id="audio" src="img/Screaming-cowboy-audio.mp3"></audio>
+  </div>
 </div>
+<script>
+  var audio = document.getElementById("audio");
+  var img = document.getElementById("loud-cowboy");
+
+  function play() {
+    audio.play();
+  }
+
+  function stop() {
+    audio.pause();
+  }
+  img.addEventListener('mouseover', play);
+  img.addEventListener('mouseout', stop);
+</script>
 </body>
 </html>
+
+
