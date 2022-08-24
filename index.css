@@ -40,7 +40,7 @@
     height:100px;
     top:500px;
     right:300px;
-    object-fit: cover;
+    display: flex;
 }
 .bongo-cat-pic:hover {
     opacity: 1;
@@ -53,7 +53,7 @@
     top:0px;
     right: 0px;
     opacity: 0.4;
-    object-fit: cover;
+    display: flex;
 }
 
 .profile-bio{
